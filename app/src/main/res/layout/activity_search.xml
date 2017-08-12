@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.books.SearchActivity">
+
+
+    <EditText
+        android:id="@+id/etTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint_title"
+        android:layout_marginTop="@dimen/margin_search_activity"
+         />
+
+    <EditText
+        android:id="@+id/etAuthor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint_author"
+        android:layout_marginTop="@dimen/margin_search_activity"
+         />
+
+    <EditText
+        android:id="@+id/etPublisher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_publisher"
+        android:ems="10"
+        android:layout_marginTop="@dimen/margin_search_activity"
+        />
+
+    <EditText
+        android:id="@+id/etISBN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_isbn"
+        android:ems="10"
+        android:layout_marginTop="@dimen/margin_search_activity"
+        android:inputType="textPersonName"
+        />
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:text="@string/search"
+        android:layout_marginTop="@dimen/margin_search_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/search_button_shape"
+        android:textColor="#FFFFFF"
+        android:padding="@dimen/standard_margin"
+        android:textSize="18sp" />
+        />
+</LinearLayout>
